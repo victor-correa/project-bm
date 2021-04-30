@@ -1,0 +1,268 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap";
+
+
+
+
+* {
+
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+}
+
+
+
+
+.header {
+  height:50vh;
+  background-image: linear-gradient(to right, #fd991e8f, #ffd000c0);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.headerwrapper {
+ height: 100vh;
+}
+
+.logo-box {
+  position: absolute;
+  top: 75px;
+  left: 40px;
+}
+
+.logo {
+  height: auto;
+}
+
+
+
+
+
+
+.containertexto {
+  background-color: black;
+  color:#fff;
+  height: 30vh;
+  font-size: 25px;
+  position: relative;
+}
+
+
+.text-box {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textoheader1 {
+  display:block;
+}
+
+.textoheader2 {
+  display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containersobre{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+}
+
+.textosobre {
+  position: absolute;
+  top: 300px;
+  width: 50%;
+  float: left;
+
+}
+
+
+.titulosobre {
+  position: absolute;
+  left: 60%;
+  top: 40px;
+}
+
+.titulosobre h1 {
+  color: #000000;
+  font-size: 75px;
+}
+
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-right: 400px solid #ffff00;
+    border-bottom: 200px solid transparent;
+    position: absolute;
+    top: 150px;
+    left: 75%;
+    
+}
+
+.textotriangulo {
+  position: absolute;
+  top: 350px;
+  left: 75%;
+  font-size: 50px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containerplanos{
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+}
+
+.textoplanos {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  width: 50%;
+
+}
+
+.tituloplanos {
+  
+  margin-left: 10px;
+  padding-top: 40px;
+}
+
+.tituloplanos h1 {
+  color: #000000;
+  font-size: 75px;
+}
+
+.rectangle1 {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+  padding: 50px;
+  position: relative;
+  left: 50px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #ffff00;
+  color: #000;
+}
+
+.rectangle2 {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+  padding: 50px;
+  position: relative;
+  top: 20px;
+  left: 50px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #ffff00;
+  color: #000;
+}
+.rectangle3 {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+  padding: 50px;
+  position: relative;
+  top:40px;
+  left: 50px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #ffff00;
+  color: #000;
+}
+
+
+
+.planos {
+  
+  height: 50vh;
+  position: relative;
+  border-radius: 1em;
+
+
+
+  background-image: linear-gradient(to right, #fd991e8f, #ffd000c0);
+  background-size: cover;
+  background-position: top;
+}
+
+
+
+.box-plano1 {
+  background-color: yellow;
+  position: absolute;
+  height: 45vh;
+  width: 20%;
+  top: 5%;
+  bottom: 10%;
+  left: 10%;
+  border-radius: 1em;
+}
+
+
+
+.box-plano2 {
+  background-color: yellow;
+  position: absolute;
+  height: 45vh;
+  width: 20%;
+  top: 5%;
+  bottom: 10%;
+  left: 40%;
+  border-radius: 1em;
+}
+
+
+
+
+.box-plano3 {
+  background-color: yellow;
+  position: absolute;
+  height: 45vh;
+  width: 20%;
+  top: 5%;
+  bottom: 10%;
+  left: 70%;
+  border-radius: 1em;
+}
